@@ -2,6 +2,8 @@ resolvers += "Sonatype snapshots" at "http://oss.sonatype.org/content/repositori
 
 resolvers += "Kamon Releases" at "http://repo.kamon.io"
 
+credentials += Credentials("Sonatype Nexus", "Nexus.landlordgame.com", "admin", "admin123")
+
 addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-aspectj" % "0.10.1")
