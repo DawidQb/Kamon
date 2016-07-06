@@ -52,7 +52,8 @@ object Settings {
       "-language:implicitConversions",
       "-Yinline-warnings",
       "-Xlog-reflective-calls"
-    )) ++ publishSettings ++ releaseSettings
+    )) ++ publishSettings ++ releaseSettings ++ Seq(   organization := "io.kamon"
+  )
 
 
   def singleTestPerJvm(tests: Seq[TestDefinition], jvmSettings: Seq[String]): Seq[Group] =

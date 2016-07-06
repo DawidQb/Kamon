@@ -24,5 +24,9 @@ object Publish {
   lazy val settings = Seq(
     publishTo := Some("Sonatype Nexus" at "http://Nexus.landlordgame.com:8081/repository/maven-releases/"))
 
+
+  organization := "io.kamon"
+
+
 }
 

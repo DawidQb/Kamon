@@ -37,7 +37,7 @@ object Dependencies {
   val newrelic          = "com.newrelic.agent.java"   %   "newrelic-api"          % "3.11.0"
   val hdrHistogram      = "org.hdrhistogram"          %   "HdrHistogram"          % "2.1.4"
   val sprayCan          = "io.spray"                  %%  "spray-can"             % sprayVersion
-  val sprayRouting      = "io.spray"                  %%  "spray-routing"         % sprayVersion
+  val sprayRouting      = "io.spray"                  %%  "spray-routing-shapeless23"         % sprayVersion
   val sprayTestkit      = "io.spray"                  %%  "spray-testkit"         % sprayVersion
   val sprayClient       = "io.spray"                  %%  "spray-client"          % sprayVersion
   val akkaActor         = "com.typesafe.akka"         %%  "akka-actor"            % akkaVersion
